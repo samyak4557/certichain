@@ -1,0 +1,45 @@
+[
+  {
+    "id": "CERT-2026-004",
+    "studentName": "Samyak Undre",
+    "studentUsername": "student",
+    "course": "B.Sc. Computer Science",
+    "certificateType": "Degree Certificate",
+    "issueDate": "26 Sept 2026",
+    "hash": "000000000000000022880bd4",
+    "status": "Revoked"
+  },
+  {
+    "id": "CERT-2026-002",
+    "studentName": "Sayali Dahake",
+    "studentUsername": "student",
+    "course": "B.Sc. Computer Science",
+    "certificateType": "Degree Certificate",
+    "issueDate": "26 Sept 2026",
+    "hash": "000000000000000041a5767b",
+    "status": "Verified",
+    "institution": "G.H. Raisoni College of Engineering and Management"
+  },
+  {
+    "id": "CERT-2026-003",
+    "studentName": "Samyak Undre",
+    "studentUsername": "student",
+    "course": "B.Sc. Computer Science",
+    "certificateType": "Degree Certificate",
+    "issueDate": "26 Sept 2026",
+    "hash": "000000000000000022880bd5",
+    "status": "Verified",
+    "institution": "G.H. Raisoni College of Engineering and Management"
+  },
+  {
+    "id": "CERT-2026-005",
+    "studentName": "Harsh Tandekar",
+    "studentUsername": "student",
+    "course": "B.Sc. Computer Science",
+    "certificateType": "Degree Certificate",
+    "issueDate": "27 Sept 2026",
+    "hash": "000000000000000054e0ef16",
+    "status": "Verified",
+    "institution": "G.H. Raisoni College of Engineering and Management"
+  }
+]

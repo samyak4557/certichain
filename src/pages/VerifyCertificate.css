@@ -1,0 +1,288 @@
+.verify-page {
+  min-height: 100vh;
+  background: #07111f;
+  color: white;
+}
+
+.verify-navbar {
+  height: 78px;
+  padding: 0 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.verify-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.verify-logo-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #22d3ee, #6366f1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.verify-logo strong {
+  display: block;
+  font-size: 18px;
+}
+
+.verify-logo span {
+  display: block;
+  color: #7f93a8;
+  font-size: 10px;
+  margin-top: 3px;
+}
+
+.back-home {
+  color: #9eb0c2;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.verify-container {
+  max-width: 850px;
+  margin: auto;
+  padding: 80px 25px;
+}
+
+.verify-heading {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.verify-badge {
+  display: inline-block;
+  color: #67e8f9;
+  background: rgba(34,211,238,0.08);
+  border: 1px solid rgba(34,211,238,0.25);
+  padding: 8px 15px;
+  border-radius: 30px;
+  font-size: 11px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.verify-heading h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.verify-heading p {
+  color: #91a4b8;
+  line-height: 1.6;
+}
+
+.verify-card {
+  background: rgba(255,255,255,0.045);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 20px;
+  padding: 35px;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.25);
+}
+
+.search-icon {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  background: rgba(34,211,238,0.1);
+  font-size: 23px;
+  margin-bottom: 18px;
+}
+
+.verify-card h2 {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.card-description {
+  color: #8296aa;
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+
+.verify-card label {
+  display: block;
+  color: #c5d2df;
+  font-size: 12px;
+  margin-bottom: 9px;
+}
+
+.input-row {
+  display: flex;
+  gap: 12px;
+}
+
+.input-row input {
+  flex: 1;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(0,0,0,0.2);
+  color: white;
+  outline: none;
+  font-size: 14px;
+}
+
+.input-row input:focus {
+  border-color: #22d3ee;
+}
+
+.input-row button {
+  padding: 0 28px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background: linear-gradient(90deg,#0891b2,#4f46e5);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.demo-note {
+  margin-top: 15px;
+  color: #6f8499;
+  font-size: 11px;
+}
+
+.demo-note strong {
+  color: #22d3ee;
+}
+
+.result-card {
+  margin-top: 25px;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(52,211,153,0.04);
+  border: 1px solid rgba(52,211,153,0.25);
+}
+
+.result-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 28px;
+}
+
+.success-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: rgba(52,211,153,0.15);
+  color: #34d399;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.verified-label {
+  color: #34d399;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.result-header h2 {
+  margin-top: 5px;
+}
+
+.certificate-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.certificate-details div {
+  padding: 15px;
+  background: rgba(255,255,255,0.035);
+  border-radius: 10px;
+}
+
+.certificate-details span {
+  display: block;
+  color: #71859a;
+  font-size: 10px;
+  margin-bottom: 6px;
+}
+
+.certificate-details strong {
+  font-size: 13px;
+}
+
+.status {
+  color: #34d399;
+}
+
+.hash-box {
+  margin-top: 15px;
+  padding: 15px;
+  background: rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+
+.hash-box span {
+  display: block;
+  color: #71859a;
+  font-size: 10px;
+  margin-bottom: 7px;
+}
+
+.hash-box code {
+  color: #67e8f9;
+  font-size: 11px;
+  word-break: break-all;
+}
+
+.blockchain-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 15px;
+  padding: 17px;
+  border-radius: 10px;
+  background: rgba(34,211,238,0.06);
+}
+
+.chain-symbol {
+  font-size: 25px;
+}
+
+.blockchain-box strong {
+  font-size: 13px;
+}
+
+.blockchain-box p {
+  color: #72879c;
+  font-size: 11px;
+  margin-top: 4px;
+}
+
+@media (max-width: 600px) {
+  .verify-heading h1 {
+    font-size: 36px;
+  }
+
+  .input-row {
+    flex-direction: column;
+  }
+
+  .input-row button {
+    padding: 14px;
+  }
+
+  .certificate-details {
+    grid-template-columns: 1fr;
+  }
+}
