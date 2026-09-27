@@ -13,7 +13,7 @@ function CertificateDetails() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
 
-  const API_URL = "http://10.11.113.49:5000";
+  const API_URL = "https://certichain-f0cn.onrender.com";
 
   // =========================
   // FETCH EXACT CERTIFICATE

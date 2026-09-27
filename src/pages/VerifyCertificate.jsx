@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import "./VerifyCertificate.css";
 
-const API_URL = "http://10.11.113.49:5000";
+const API_URL = "https://certichain-f0cn.onrender.com";
 
 function VerifyCertificate() {
   const [searchParams] = useSearchParams();

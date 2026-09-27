@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./StudentDashboard.css";
 
-const API_URL = "http://10.11.113.49:5000";
+const API_URL = "https://certichain-f0cn.onrender.com";
 
 function StudentDashboard() {
   const navigate = useNavigate();
