@@ -79,45 +79,44 @@ function CertificateDetails() {
 
 
   // =========================
-  // GENERATE QR
-  // =========================
+// GENERATE QR
+// =========================
 
-  useEffect(() => {
+useEffect(() => {
 
-    if (!certificate) {
-      return;
-    }
+  if (!certificate) {
+    return;
+  }
 
-    const verifyUrl =
-      `http://10.11.113.49:5173/verify?id=` +
-      encodeURIComponent(certificate.id);
+  const verifyUrl =
+    `https://certichain-j7xs.vercel.app/verify?id=` +
+    encodeURIComponent(certificate.id);
 
-    QRCode.toDataURL(
-      verifyUrl,
-      {
-        width: 240,
-        margin: 2,
-        errorCorrectionLevel: "H",
-      },
-      (error, url) => {
+  QRCode.toDataURL(
+    verifyUrl,
+    {
+      width: 240,
+      margin: 2,
+      errorCorrectionLevel: "H",
+    },
+    (error, url) => {
 
-        if (error) {
+      if (error) {
 
-          console.error(
-            "QR generation failed:",
-            error
-          );
+        console.error(
+          "QR generation failed:",
+          error
+        );
 
-          return;
-        }
-
-        setQrCode(url);
-
+        return;
       }
-    );
 
-  }, [certificate]);
+      setQrCode(url);
 
+    }
+  );
+
+}, [certificate]);
 
   // =========================
   // DOWNLOAD PDF
